@@ -54,6 +54,19 @@ class Screen1 extends StatelessWidget {
 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 242, 152, 8),
+                  ),
+                ),
+
+                SizedBox(width: 10),
+                
+              ],
             ),
           ],
         ),
