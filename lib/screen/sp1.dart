@@ -74,11 +74,32 @@ class Screen1 extends StatelessWidget {
                     color: Color.fromARGB(255, 117, 98, 57),
                   ),
                 ),
-                
+
                 SizedBox(width: 10),
-                
+
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 55, 52, 48),
+                  ),
+                ),
+                SizedBox(width: 10),
               ],
             ),
+
+            SizedBox(height: 30),
+
+            Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: SizedBox(
+                height: 40,
+                width: double.infinity,
+              ),
+            ),
+
+
           ],
         ),
       ),
