@@ -65,6 +65,17 @@ class Screen1 extends StatelessWidget {
                 ),
 
                 SizedBox(width: 10),
+
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 117, 98, 57),
+                  ),
+                ),
+                
+                SizedBox(width: 10),
                 
               ],
             ),
