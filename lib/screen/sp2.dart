@@ -30,6 +30,7 @@ class Screen2 extends StatelessWidget {
                 color: Colors.amber,
                 image: DecorationImage(
                   image: AssetImage("assets/images/Game On!.jpg"),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
