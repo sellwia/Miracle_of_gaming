@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miracle_of_gaming_/screen/sp2.dart';
 
 class Screen1 extends StatelessWidget {
   const Screen1({super.key});
