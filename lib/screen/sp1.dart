@@ -98,6 +98,9 @@ class Screen1 extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.white,
+                  ),
                     child: Text("Continue", style: TextStyle(fontSize: 14, color : Colors.black)),
                 ),
               ),
