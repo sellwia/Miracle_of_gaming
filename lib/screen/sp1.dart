@@ -39,7 +39,7 @@ class Screen1 extends StatelessWidget {
             Text(
               "Welcome To \n Miracle Of Gaming",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2,),
+              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2, fontWeight: FontWeight.bold),
             ),
 
             SizedBox(height: 20),
