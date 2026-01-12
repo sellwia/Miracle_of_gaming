@@ -29,6 +29,7 @@ class Screen1 extends StatelessWidget {
                 color: Colors.amber,
                 image: DecorationImage(
                   image: AssetImage("assets/images/Gamer.jpg"),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
