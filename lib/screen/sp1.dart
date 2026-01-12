@@ -44,6 +44,9 @@ class Screen1 extends StatelessWidget {
 
             SizedBox(height: 20),
 
+            Text(
+              "Temukan berbagai pilihan game dan nikmati pengalaman bermain yang menyenangkan",
+            ),
           ],
         ),
       ),
