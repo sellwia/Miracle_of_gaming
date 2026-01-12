@@ -33,6 +33,15 @@ class Screen1 extends StatelessWidget {
                 ),
               ),
             ),
+
+            SizedBox(height: 20),
+
+            Text(
+              "Welcome To \n Miracle Of Gaming",
+            ),
+
+            SizedBox(height: 20),
+
           ],
         ),
       ),
