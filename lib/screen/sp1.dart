@@ -49,6 +49,12 @@ class Screen1 extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 12, color: Colors.white),
             ),
+
+            SizedBox(height: 20),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+            ),
           ],
         ),
       ),
