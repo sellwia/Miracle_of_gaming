@@ -46,6 +46,7 @@ class Screen1 extends StatelessWidget {
 
             Text(
               "Temukan berbagai pilihan game dan nikmati pengalaman bermain yang menyenangkan",
+              textAlign: TextAlign.center,
             ),
           ],
         ),
