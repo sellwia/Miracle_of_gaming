@@ -87,8 +87,22 @@ class Screen2 extends StatelessWidget {
                   ),
                 ),
               ],
-              
             ),
+
+            SizedBox(height: 30),
+
+            Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: SizedBox(
+                height: 40,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {},
+                    child: Text("Continue", style: TextStyle(fontSize: 14, color : Colors.black)),
+                ),
+              ),
+            ),
+
           ],
         ),
       ),
