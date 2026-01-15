@@ -45,6 +45,13 @@ class Screen2 extends StatelessWidget {
 
             SizedBox(height: 20),
 
+            Text(
+              "Jelajahi koleksi game yang tersedia dan pilih game sesuai dengan minatmu",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 12, color: Colors.white),
+            ),
+
+            SizedBox(height: 20),
           ],
         ),
       ),
