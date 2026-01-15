@@ -34,6 +34,17 @@ class Screen2 extends StatelessWidget {
                 ),
               ),
             ),
+
+             SizedBox(height: 20),
+            
+            Text(
+              "Explore Our Games",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2,),
+            ),
+
+            SizedBox(height: 20),
+
           ],
         ),
       ),
