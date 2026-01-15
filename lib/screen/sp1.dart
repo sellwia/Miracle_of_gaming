@@ -86,7 +86,6 @@ class Screen1 extends StatelessWidget {
                     color: Color.fromARGB(255, 55, 52, 48),
                   ),
                 ),
-                SizedBox(width: 10),
               ],
             ),
 
