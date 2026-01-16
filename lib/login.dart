@@ -87,6 +87,11 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
 
+                      prefixIcon: Icon(
+                        Icons.person,
+                        size: 25.0,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
 
