@@ -40,6 +40,7 @@ class Screen3 extends StatelessWidget {
             Text(
               "⁠Let’s Start the Game",
               textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2),
             ),         
           ],
         ),
