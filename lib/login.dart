@@ -31,6 +31,9 @@ class LoginPage extends StatelessWidget {
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.white,
+                      image: DecorationImage(
+                        image: AssetImage("assets/images/Lg.png"),
+                      ),
                     ),
                   ),
 
