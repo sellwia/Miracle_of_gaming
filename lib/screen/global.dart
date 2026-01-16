@@ -30,6 +30,7 @@ class GlobalPage extends StatelessWidget {
                 color: Colors.amber,
                 image: DecorationImage(
                   image: AssetImage("assets/images/global.png"),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),
