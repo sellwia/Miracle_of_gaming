@@ -66,6 +66,8 @@ class LoginPage extends StatelessWidget {
                     style: const TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       labelText: 'ID Member',
+                      labelStyle: const TextStyle(color: Colors.white),
+                      
                     ),
                   ),
 
