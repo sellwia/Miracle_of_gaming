@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miracle_of_gaming_/home.dart';
 import 'package:miracle_of_gaming_/regist.dart';
 
 class LoginPage extends StatelessWidget {
@@ -155,7 +156,12 @@ class LoginPage extends StatelessWidget {
                   SizedBox(
                     width: double.infinity,
                     child: ElevatedButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => HomePage()),
+                        );
+                      },
                       child: const Text(
                         'Login',
                         style: TextStyle(
