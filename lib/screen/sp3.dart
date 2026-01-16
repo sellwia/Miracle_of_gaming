@@ -30,6 +30,7 @@ class Screen3 extends StatelessWidget {
                 color: Colors.amber,
                 image: DecorationImage(
                   image: AssetImage("assets/images/Play.jpg"),
+                  fit: BoxFit.cover,
                 ),
               ),
             ),         
