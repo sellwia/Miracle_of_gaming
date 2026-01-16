@@ -16,6 +16,18 @@ class Screen3 extends StatelessWidget {
             colors: [Color(0xFF0F0F0F), Color(0xFF1C1F26), Color(0xFF2A2D34)],
           ),
         ),
+
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            SizedBox(height: 70),
+            Container(
+              width: 250,
+              height: 250,
+            ),         
+          ],
+        ),
       ),
     );
   }
