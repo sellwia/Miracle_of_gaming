@@ -51,6 +51,26 @@ class Screen3 extends StatelessWidget {
               style: TextStyle(fontSize: 12, color: Colors.white),
             ),
 
+             SizedBox(height: 20),
+
+              Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 55, 52, 48),
+                  ),
+                ),
+
+                SizedBox(width: 10),
+              ],
+            ),
+
+            SizedBox(height: 30),
+
           ],
         ),
       ),
