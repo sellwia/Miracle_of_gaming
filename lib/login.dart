@@ -162,6 +162,10 @@ class LoginPage extends StatelessWidget {
                           MaterialPageRoute(builder: (context) => HomePage()),
                         );
                       },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        
+                      ),
                       child: const Text(
                         'Login',
                         style: TextStyle(
