@@ -28,6 +28,9 @@ class Screen3 extends StatelessWidget {
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.amber,
+                image: DecorationImage(
+                  image: AssetImage("assets/images/Game On!.jpg"),
+                ),
               ),
             ),         
           ],
