@@ -33,6 +33,12 @@ class Screen3 extends StatelessWidget {
                   fit: BoxFit.cover,
                 ),
               ),
+            ),
+
+            SizedBox(height: 20),
+            
+            Text(
+              "Let’s Start the Game",
             ),         
           ],
         ),
