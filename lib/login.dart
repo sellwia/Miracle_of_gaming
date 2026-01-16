@@ -106,10 +106,16 @@ class LoginPage extends StatelessWidget {
                       hintText: 'Masukkan Password Anda',
                       hintStyle: const TextStyle(color: Colors.grey),
 
+                      //garis kolom
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12.0),
                       ),
-                      
+
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12),
+                        borderSide: BorderSide(color: Colors.white),
+                      ),
+
                     ),
                   ),
 
