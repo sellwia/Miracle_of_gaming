@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miracle_of_gaming_/login.dart';
 
 class GlobalPage extends StatelessWidget {
   const GlobalPage({super.key});
