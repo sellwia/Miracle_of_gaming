@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miracle_of_gaming_/regist.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -137,7 +138,7 @@ class LoginPage extends StatelessWidget {
                     alignment: Alignment.centerRight,
                     child: TextButton(
                       onPressed: () {
-\                        Navigator.push(
+                       Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) => RegistPage()),
                         );
@@ -149,6 +150,23 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
 
+                  SizedBox(height: 20),
+
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      child: const Text(
+                        'Login',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+
+                  SizedBox(height: 20),
                 ],
               ),
             ),
