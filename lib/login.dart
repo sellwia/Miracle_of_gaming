@@ -136,7 +136,12 @@ class LoginPage extends StatelessWidget {
                   Align(
                     alignment: Alignment.centerRight,
                     child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+\                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => RegistPage()),
+                        );
+                      },
                       child: Text(
                         'Belum Punya Akun?',
                         style: TextStyle(color: Colors.blue[700], fontSize: 14),
