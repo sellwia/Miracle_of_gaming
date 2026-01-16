@@ -64,6 +64,9 @@ class LoginPage extends StatelessWidget {
                   TextField(
                     keyboardType: TextInputType.text,
                     style: const TextStyle(color: Colors.white),
+                    decoration: InputDecoration(
+                      labelText: 'ID Member',
+                    ),
                   ),
 
                 ],
