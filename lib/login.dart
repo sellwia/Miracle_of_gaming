@@ -33,6 +33,7 @@ class LoginPage extends StatelessWidget {
                       color: Colors.white,
                       image: DecorationImage(
                         image: AssetImage("assets/images/Lg.png"),
+                        fit: BoxFit.cover,
                       ),
                     ),
                   ),
