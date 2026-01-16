@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miracle_of_gaming_/screen/global.dart';
 import 'package:miracle_of_gaming_/screen/sp2.dart';
 
 
@@ -102,7 +103,7 @@ class Screen3 extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Screen2()),
+                      MaterialPageRoute(builder: (context) => GlobalPage()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
