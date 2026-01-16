@@ -123,6 +123,10 @@ class LoginPage extends StatelessWidget {
                         ),
                       ),
 
+                      prefixIcon: const Icon(
+                        Icons.lock_outline,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
 
