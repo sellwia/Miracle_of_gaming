@@ -42,6 +42,14 @@ class GlobalPage extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2, fontWeight: FontWeight.bold),
             ),
+
+            SizedBox(height: 20),
+
+            Text(
+              "Nim : 1122140124 \n Nama : Selly Dwi Kurnia \n Kelas : TI SE 23 M",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 12, color: Colors.white),
+            ),
           ],
         ),
       ),
