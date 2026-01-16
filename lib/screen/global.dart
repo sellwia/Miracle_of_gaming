@@ -34,6 +34,14 @@ class GlobalPage extends StatelessWidget {
                 ),
               ),
             ),
+
+            SizedBox(height: 20),
+            
+            Text(
+              "Guna Memenuhi Tugas Akhir",
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2, fontWeight: FontWeight.bold),
+            ),
           ],
         ),
       ),
