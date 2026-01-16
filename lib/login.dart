@@ -67,6 +67,9 @@ class LoginPage extends StatelessWidget {
                     decoration: InputDecoration(
                       labelText: 'ID Member',
                       labelStyle: const TextStyle(color: Colors.white),
+                      hintText: 'Masukkan ID Member Anda',
+                      hintStyle: const TextStyle(color: Colors.grey),
+
                       
                     ),
                   ),
