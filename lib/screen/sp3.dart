@@ -29,7 +29,7 @@ class Screen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.amber,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/Game On!.jpg"),
+                  image: AssetImage("assets/images/Play.jpg"),
                 ),
               ),
             ),         
