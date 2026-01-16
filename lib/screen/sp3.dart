@@ -38,7 +38,8 @@ class Screen3 extends StatelessWidget {
             SizedBox(height: 20),
             
             Text(
-              "Let’s Start the Game",
+              "⁠Let’s Start the Game",
+              textAlign: TextAlign.center,
             ),         
           ],
         ),
