@@ -59,6 +59,12 @@ class LoginPage extends StatelessWidget {
                     ),
                   ),
 
+                  SizedBox(height: 25),
+
+                  TextField(
+                    keyboardType: TextInputType.text,
+                    style: const TextStyle(color: Colors.white),
+                  ),
 
                 ],
               ),
