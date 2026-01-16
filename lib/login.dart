@@ -53,6 +53,10 @@ class LoginPage extends StatelessWidget {
 
                   Text(
                     "Silahkan Login Untuk Melanjutkan",
+                    style: TextStyle(
+                      fontSize: 12,
+                      color: Colors.white,
+                    ),
                   ),
 
 
