@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black12),
         fontFamily: 'Roboto',
       ),
-      home: LoginPage(),
+      home: Screen1(),
     );
   }
 }
