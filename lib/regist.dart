@@ -69,6 +69,10 @@ class RegistPage extends StatelessWidget {
                       labelStyle: const TextStyle(color: Colors.white),
                       hintText: 'Masukkan Email Anda',
                       hintStyle: const TextStyle(color: Colors.grey),
+                      
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
 
                       
                     ),
