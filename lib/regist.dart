@@ -42,6 +42,11 @@ class RegistPage extends StatelessWidget {
                   
                   Text(
                     "Join Us Now!",
+                    style: TextStyle(
+                      fontSize: 30,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                    ),
                     
                   ),
                 ],
