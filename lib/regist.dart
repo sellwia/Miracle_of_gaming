@@ -47,8 +47,17 @@ class RegistPage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       color: Colors.white,
                     ),
+                  ),
+
+                  SizedBox(height: 10), 
+
+                  Text(
+                    "Bergabunglah dan rasakan sensasi bermain yang seru, dan menyenangkan",
                     
                   ),
+
+                  SizedBox(height: 25),
+
                 ],
               ),
             ),
