@@ -32,7 +32,8 @@ class RegistPage extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.white,
                       image: DecorationImage(
-                        image: AssetImage("assets/images/Lg.png"),
+                        image: AssetImage("assets/images/join.png"),
+                        fit: BoxFit.cover,
                       ),
                     ),
                   ),
