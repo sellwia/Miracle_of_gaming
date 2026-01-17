@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:miracle_of_gaming_/login.dart';
 
 class RegistPage extends StatelessWidget {
   const RegistPage({super.key});
@@ -172,7 +173,12 @@ class RegistPage extends StatelessWidget {
                   Align(
                     alignment: Alignment.centerRight,
                     child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                       Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => LoginPage()),
+                        );
+                      },
                       child: Text(
                         'Sudah Punya Akun?',
                         style: TextStyle(color: Colors.blue[700], fontSize: 14),
