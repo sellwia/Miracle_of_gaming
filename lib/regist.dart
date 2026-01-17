@@ -17,7 +17,26 @@ class RegistPage extends StatelessWidget {
           ),
         ),
 
-        
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            Container(
+              padding: EdgeInsets.all(20.0),
+              child: Column(
+                children: [
+                  SizedBox(height: 10),
+                  Container(
+                    width: 250,
+                    height: 250,
+                    
+                  ),
+
+                    SizedBox(height: 30),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }
