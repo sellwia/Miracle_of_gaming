@@ -168,6 +168,19 @@ class RegistPage extends StatelessWidget {
                   ),
 
                   SizedBox(height: 10),
+
+                  Align(
+                    alignment: Alignment.centerRight,
+                    child: TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        'Sudah Punya Akun?',
+                        style: TextStyle(color: Colors.blue[700], fontSize: 14),
+                      ),
+                    ),
+                  ),
+
+                  SizedBox(height: 20),
                 ],
               ),
             ),
