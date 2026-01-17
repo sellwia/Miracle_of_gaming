@@ -136,7 +136,10 @@ class RegistPage extends StatelessWidget {
                   TextField(
                     obscureText: true,
                     style: const TextStyle(color: Colors.white),
-                    
+                    decoration: InputDecoration(
+                      labelText: 'Konfirmasi Password',
+                      
+                    ),
                   ),
 
                   SizedBox(height: 10),
