@@ -199,6 +199,7 @@ class RegistPage extends StatelessWidget {
                       },
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
                         
                       ),
                       child: const Text(
