@@ -127,6 +127,7 @@ class RegistPage extends StatelessWidget {
                         Icons.lock_outline,
                         color: Colors.white,
                       ),
+                      suffixIcon: const Icon(Icons.visibility_outlined),
                     ),
                   ),
 
