@@ -102,6 +102,7 @@ class RegistPage extends StatelessWidget {
                     style: const TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       labelText: 'Password',
+                      labelStyle: const TextStyle(color: Colors.white),
                       
                     ),
                   ),
