@@ -66,6 +66,7 @@ class RegistPage extends StatelessWidget {
                     style: const TextStyle(color: Colors.white),
                     decoration: InputDecoration(
                       labelText: 'Email',
+                      labelStyle: const TextStyle(color: Colors.white),
                       
                     ),
                   ),
