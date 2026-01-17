@@ -132,7 +132,14 @@ class RegistPage extends StatelessWidget {
                   ),
 
                   SizedBox(height: 10),
+                  
+                  TextField(
+                    obscureText: true,
+                    style: const TextStyle(color: Colors.white),
+                    
+                  ),
 
+                  SizedBox(height: 10),
                 ],
               ),
             ),
