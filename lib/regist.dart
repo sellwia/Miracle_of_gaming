@@ -32,15 +32,18 @@ class RegistPage extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.white,
                       image: DecorationImage(
-                        image: AssetImage("assets/images/join.png"),
+                        image: AssetImage("assets/images/join.jpg"),
                         fit: BoxFit.cover,
                       ),
                     ),
                   ),
 
                     SizedBox(height: 30),
-
                   
+                  Text(
+                    "Join Us Now!",
+                    
+                  ),
                 ],
               ),
             ),
