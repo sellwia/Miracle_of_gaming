@@ -140,6 +140,8 @@ class RegistPage extends StatelessWidget {
                       labelText: 'Konfirmasi Password',
                       labelStyle: const TextStyle(color: Colors.white),
                       hintText: 'Masukkan Ulang Password Anda',
+                      hintStyle: const TextStyle(color: Colors.grey),
+
                       
                     ),
                   ),
