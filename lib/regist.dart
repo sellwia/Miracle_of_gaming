@@ -28,10 +28,15 @@ class RegistPage extends StatelessWidget {
                   Container(
                     width: 250,
                     height: 250,
-                    
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: Colors.white,
+                    ),
                   ),
 
                     SizedBox(height: 30),
+
+                  
                 ],
               ),
             ),
