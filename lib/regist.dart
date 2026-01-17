@@ -187,6 +187,20 @@ class RegistPage extends StatelessWidget {
                   ),
 
                   SizedBox(height: 20),
+
+                  SizedBox(
+                    width: double.infinity,
+                    child: ElevatedButton(
+                      onPressed: () {},
+                      child: const Text(
+                        'Submit',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
