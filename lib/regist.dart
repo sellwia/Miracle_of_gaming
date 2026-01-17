@@ -197,7 +197,10 @@ class RegistPage extends StatelessWidget {
                           MaterialPageRoute(builder: (context) => LoginPage()),
                         );
                       },
-                      
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.white,
+                        
+                      ),
                       child: const Text(
                         'Submit',
                         style: TextStyle(
