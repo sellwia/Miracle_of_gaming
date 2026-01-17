@@ -87,7 +87,11 @@ class RegistPage extends StatelessWidget {
                         ),
                       ),
 
-                      
+                      prefixIcon: Icon(
+                        Icons.email,
+                        size: 25.0,
+                        color: Colors.white,
+                      ),
                     ),
                   ),
 
