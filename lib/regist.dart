@@ -205,7 +205,7 @@ class RegistPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         elevation: 2,
-                      ),
+                      ), 
                       child: const Text(
                         'Submit',
                         style: TextStyle(
