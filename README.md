@@ -21,9 +21,11 @@ https://global.ac.id/
 
 ## About The Project
 
-..... adalah aplikasi mobile modern yang dikembangkan menggunakan Flutter untuk membantu ....... menyediakan antarmuka yang intuitif, fitur sinkronisasi cloud menggunakan firebase authentication , firebase store, ..... dan .......
+Miracle of Gaming adalah aplikasi mobile modern yang dikembangkan menggunakan Flutter untuk membantu pengelola dan pelanggan rental game dalam memperoleh informasi serta melakukan pemesanan tempat bermain secara digital. Aplikasi ini menyediakan antarmuka yang intuitif dan mudah digunakan, sehingga pengguna dapat dengan cepat mengakses informasi mengenai daftar game yang tersedia di rental, game yang sedang berlangsung, serta game yang akan datang.
 
-Dengan .............. lain.
+Miracle of Gaming dilengkapi dengan fitur sinkronisasi cloud menggunakan Firebase Authentication untuk sistem login dan manajemen pengguna, Firebase Firestore sebagai penyimpanan data game, jadwal, dan booking secara real-time, serta Firebase Cloud Storage untuk menyimpan media pendukung seperti gambar game dan informasi promosi.
+
+Dengan dukungan fitur lain seperti sistem booking tempat bermain, jadwal bermain, notifikasi ketersediaan slot, dan pembaruan informasi game secara real-time, aplikasi Miracle of Gaming diharapkan mampu meningkatkan efisiensi layanan rental game serta memberikan pengalaman bermain yang lebih praktis dan terorganisir bagi pengguna.
 
 ### Key Features
 
