@@ -11,6 +11,9 @@ class PosterItem extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 8),
       child: ClipRRect(
         borderRadius: BorderRadius.circular(20),
+        child: Image.asset(
+          imagePath,
+        ),
       ),
     );
   }
