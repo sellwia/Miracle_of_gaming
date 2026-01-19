@@ -29,14 +29,15 @@ Dengan dukungan fitur lain seperti sistem booking tempat bermain, jadwal bermain
 
 ### Key Features
 
-- **Modern UI/UX Design** - Antarmuka yang clean dan user-friendly
-- ....
-- ....
-- **Push Notifications** - Reminder untuk catatan penting
-- **Cloud Sync** - Sinkronisasi otomatis dengan Firebase
+- **Modern UI/UX Design** - Antarmuka yang clean, responsif, dan user-friendly untuk memudahkan navigasi pengguna
+- **Game Information Management** - Informasi lengkap mengenai game yang tersedia di rental, termasuk detail game, genre, dan status ketersediaan
+- **Ongoing & Upcoming Games** - Menampilkan game yang sedang berlangsung serta daftar game yang akan hadir di rental
+- **Booking System** - Sistem pemesanan tempat bermain game secara online dengan pilihan jadwal dan durasi bermain
+- **Push Notifications** - Notifikasi pengingat jadwal bermain, konfirmasi booking, dan informasi game terbaru
+- **Cloud Sync** - Sinkronisasi data secara real-time menggunakan Firebase Firestore dan Firebase Authentication
+- **User Account Management** - Sistem login dan pengelolaan akun pengguna untuk riwayat booking dan aktivitas bermain
 - **Dark Mode** - Theme gelap untuk kenyamanan mata
-- ...
-- ...
+
 
 ## Screenshots
 
