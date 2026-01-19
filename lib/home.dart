@@ -13,6 +13,8 @@ class PosterItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         child: Image.asset(
           imagePath,
+          width: double.infinity,
+          fit: BoxFit.cover,
         ),
       ),
     );
