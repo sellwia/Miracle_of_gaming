@@ -7,7 +7,9 @@ class PosterItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Placeholder();
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 8),
+    );
   }
 }
 
