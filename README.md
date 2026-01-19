@@ -1,4 +1,4 @@
-# Nama Aplikasi App - Flutter Application
+# Nama Miracle Of Gaming - Flutter Application
 
 <div align="center">
 <url>
