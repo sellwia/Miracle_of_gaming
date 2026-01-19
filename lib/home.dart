@@ -38,7 +38,12 @@ class HomePage extends StatelessWidget {
           ),
         ),
 
-        
+        child: SafeArea(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            
+        ),
+        ),
       ),
     ); 
   }
