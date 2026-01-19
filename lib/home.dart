@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
 
 class PosterItem extends StatelessWidget {
-  const PosterItem({super.key});
+  final String imagePath;
+
+  const PosterItem({super.key, required this.imagePath});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Placeholder();
   }
 }
 
@@ -17,4 +19,3 @@ class HomePage extends StatelessWidget {
     return const Placeholder();
   }
 }
-
