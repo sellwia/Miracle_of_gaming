@@ -62,11 +62,15 @@ class HomePage extends StatelessWidget {
                 height: 220,
                 child: PageView(
                   controller: PageController(viewportFraction: 0.9),
-                  
+                  children: const [
+                    PosterItem(imagePath: "assets/images/Game1.png"),
+                    PosterItem(imagePath: "assets/images/Game2.png"),
+                    PosterItem(imagePath: "assets/images/Game3.png"),
+                  ],
                 ),
               ),
-          ],
-        ),
+            ],
+          ),
         ),
       ),
     ); 
