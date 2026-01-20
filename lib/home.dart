@@ -60,7 +60,10 @@ class HomePage extends StatelessWidget {
 
               SizedBox(
                 height: 220,
-                
+                child: PageView(
+                  controller: PageController(viewportFraction: 0.9),
+                  
+                ),
               ),
           ],
         ),
