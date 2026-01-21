@@ -48,7 +48,17 @@ class HomePage extends StatelessWidget {
                 padding: EdgeInsets.symmetric(horizontal: 16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                  "COMING SOON",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
+                  ],
+                )
               ),
 
               const SizedBox(height: 16),
