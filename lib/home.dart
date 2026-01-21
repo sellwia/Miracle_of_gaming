@@ -91,7 +91,18 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                     
+                    Text(
+                      "SPECIAL UNTUK KAMU",
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+
+                    SizedBox(height: 4),
+
+                    
                   ],
                 )
               ),
