@@ -135,7 +135,13 @@ class _HomePageState extends State<HomePage> {
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white54,
 
-        
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Home',
+          ),
+          
+        ],
       ),
     );
   }
