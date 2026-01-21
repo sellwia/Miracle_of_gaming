@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
 
-                    SizedBox(height: 4),
+                    SizedBox(height: 2),
 
                     Text(
                       "Game baru akan segera hadir di Miracle of Gaming",
@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
 
-              SizedBox(height: 20),
+              SizedBox(height: 16),
 
               const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 16),
@@ -100,10 +100,17 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
 
-                    SizedBox(height: 4),
+                    SizedBox(height: 2),
 
-                    
-                  ],
+                    Text(
+                      "Game Spesial Untuk Kamu Pelangan Setia Kami",
+                      style: TextStyle(
+                        color: Colors.white70,
+                        fontSize: 14,
+                      ),
+                    ),
+
+                  ],              
                 )
               ),
             ],
