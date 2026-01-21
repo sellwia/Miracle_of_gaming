@@ -130,6 +130,11 @@ class _HomePageState extends State<HomePage> {
           });
         },
 
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: const Color(0xFF0F0F0F),
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white54,
+
         
       ),
     );
