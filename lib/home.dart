@@ -83,6 +83,18 @@ class HomePage extends StatelessWidget {
                   ],
                 ),
               ),
+
+              SizedBox(height: 20),
+
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                     
+                  ],
+                )
+              ),
             ],
           ),
         ),
