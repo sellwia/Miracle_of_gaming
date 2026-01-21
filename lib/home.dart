@@ -148,7 +148,10 @@ class _HomePageState extends State<HomePage> {
             icon: Icon(Icons.history),
             label: 'History',
           ),
-          
+          BottomNavigationBarItem(
+            icon: Icon(Icons.person_outline),
+            label: 'Profile',
+          ),
         ],
       ),
     );
