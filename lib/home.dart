@@ -140,6 +140,10 @@ class _HomePageState extends State<HomePage> {
             icon: Icon(Icons.home),
             label: 'Home',
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.event_available),
+            label: 'Booking',
+          ),
           
         ],
       ),
