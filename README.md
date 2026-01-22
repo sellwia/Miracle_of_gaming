@@ -136,15 +136,18 @@ flutter build apk --split-per-abi
 
 ```
 lib/
-├── screen/                  # UI Screens
-│   ├── global.dart
-│   ├── sp1.dart
-│   ├── sp2.dart
-│   └── sp3.dart
-├── home.dart                 
-├── login.dart 
-├── main.dart                # Entry point
-└── regist.dart
+├── screens/                  # UI Screens
+│   ├── afterlogin/
+│   │   ├── home.dart
+│   ├── auth
+│   │   ├── login.dart
+│   │   └── regist.dart
+│   ├── splashscreen
+│   │   ├── global.dart
+│   │   ├── sp1.dart
+│   │   ├── sp2.dart
+│   │   └── sp3.dart            
+└── main.dart                   # Entry point
 ```
 
 ## Authentication Flow
