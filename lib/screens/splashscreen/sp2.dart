@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:miracle_of_gaming_/screen/global.dart';
-import 'package:miracle_of_gaming_/screen/sp2.dart';
+import 'package:miracle_of_gaming_/screens/splashscreen/sp3.dart';
 
-
-class Screen3 extends StatelessWidget {
-  const Screen3({super.key});
+class Screen2 extends StatelessWidget {
+  const Screen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -32,7 +30,7 @@ class Screen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.amber,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/Play.jpg"),
+                  image: AssetImage("assets/images/Game On!.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -41,35 +39,24 @@ class Screen3 extends StatelessWidget {
             SizedBox(height: 20),
             
             Text(
-              "⁠Let’s Start the Game",
+              "Explore Our Games",
               textAlign: TextAlign.center,
-              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2,fontWeight: FontWeight.bold),
             ),
 
             SizedBox(height: 20),
 
             Text(
-              "Siapkan diri kamu dan mulai petualangan bermain sekarang",
+              "Jelajahi koleksi game yang tersedia dan pilih game sesuai dengan minatmu",
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 12, color: Colors.white),
             ),
 
-             SizedBox(height: 20),
+            SizedBox(height: 20),
 
-              Row(
+            Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Color.fromARGB(255, 55, 52, 48),
-                  ),
-                ),
-
-                SizedBox(width: 10),
-
                 Container(
                   width: 10,
                   height: 10,
@@ -89,6 +76,17 @@ class Screen3 extends StatelessWidget {
                     color: Color.fromARGB(255, 242, 152, 8),
                   ),
                 ),
+
+                SizedBox(width: 10),
+
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 117, 98, 57),
+                  ),
+                ),
               ],
             ),
 
@@ -103,16 +101,15 @@ class Screen3 extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => GlobalPage()),
+                      MaterialPageRoute(builder: (context) => Screen3()),
                     );
                   },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white,
-                  ),
+                  style: ElevatedButton.styleFrom(backgroundColor: Colors.white),
                     child: Text("Continue", style: TextStyle(fontSize: 14, color : Colors.black)),
                 ),
               ),
             ),
+
           ],
         ),
       ),

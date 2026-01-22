@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:miracle_of_gaming_/login.dart';
+import 'package:miracle_of_gaming_/screens/splashscreen/sp2.dart';
 
-class GlobalPage extends StatelessWidget {
-  const GlobalPage({super.key});
+class Screen1 extends StatelessWidget {
+  const Screen1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,6 @@ class GlobalPage extends StatelessWidget {
             colors: [Color(0xFF0F0F0F), Color(0xFF1C1F26), Color(0xFF2A2D34)],
           ),
         ),
-
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -30,16 +29,16 @@ class GlobalPage extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.amber,
                 image: DecorationImage(
-                  image: AssetImage("assets/images/global.png"),
+                  image: AssetImage("assets/images/Gamer.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
 
             SizedBox(height: 20),
-            
+
             Text(
-              "Guna Memenuhi Tugas Akhir",
+              "Welcome To \n Miracle Of Gaming",
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 30, color: Colors.white, height: 1.2, fontWeight: FontWeight.bold),
             ),
@@ -47,9 +46,47 @@ class GlobalPage extends StatelessWidget {
             SizedBox(height: 20),
 
             Text(
-              "Nim : 1122140124 \n Nama : Selly Dwi Kurnia \n Kelas : TI SE 23 M",
+              "Temukan berbagai pilihan game dan nikmati pengalaman bermain yang menyenangkan",
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 12, color: Colors.white),
+            ),
+
+            SizedBox(height: 20),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 242, 152, 8),
+                  ),
+                ),
+
+                SizedBox(width: 10),
+
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 117, 98, 57),
+                  ),
+                ),
+
+                SizedBox(width: 10),
+
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 55, 52, 48),
+                  ),
+                ),
+              ],
             ),
 
             SizedBox(height: 30),
@@ -63,16 +100,18 @@ class GlobalPage extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => LoginPage()),
+                      MaterialPageRoute(builder: (context) => Screen2()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.white,
                   ),
-                    child: Text("Mulai", style: TextStyle(fontSize: 14, color : Colors.black)),
+                    child: Text("Continue", style: TextStyle(fontSize: 14, color : Colors.black)),
                 ),
               ),
             ),
+
+
           ],
         ),
       ),

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:miracle_of_gaming_/login.dart';
-import 'package:miracle_of_gaming_/screen/global.dart';
-import 'package:miracle_of_gaming_/screen/sp1.dart';
-import 'package:miracle_of_gaming_/screen/sp2.dart';
+import 'package:miracle_of_gaming_/screens/auth/login.dart';
+import 'package:miracle_of_gaming_/screens/splashscreen/global.dart';
+import 'package:miracle_of_gaming_/screens/splashscreen/sp1.dart';
+import 'package:miracle_of_gaming_/screens/splashscreen/sp2.dart';
 
 void main() {
   runApp(const MyApp());

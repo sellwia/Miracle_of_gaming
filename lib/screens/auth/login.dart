@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:miracle_of_gaming_/login.dart';
+import 'package:miracle_of_gaming_/screens/afterlogin/home.dart';
+import 'package:miracle_of_gaming_/screens/auth/regist.dart';
 
-class RegistPage extends StatelessWidget {
-  const RegistPage({super.key});
+class LoginPage extends StatelessWidget {
+  const LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -33,16 +34,16 @@ class RegistPage extends StatelessWidget {
                       shape: BoxShape.circle,
                       color: Colors.white,
                       image: DecorationImage(
-                        image: AssetImage("assets/images/join.jpg"),
+                        image: AssetImage("assets/images/Lg.png"),
                         fit: BoxFit.cover,
                       ),
                     ),
                   ),
 
                     SizedBox(height: 30),
-                  
+
                   Text(
-                    "Join Us Now!",
+                    "Login To Your Account",
                     style: TextStyle(
                       fontSize: 30,
                       fontWeight: FontWeight.bold,
@@ -53,7 +54,7 @@ class RegistPage extends StatelessWidget {
                   SizedBox(height: 10), 
 
                   Text(
-                    "Bergabunglah dan rasakan sensasi bermain yang seru, dan menyenangkan",
+                    "Silahkan Login Untuk Melanjutkan",
                     style: TextStyle(
                       fontSize: 12,
                       color: Colors.white,
@@ -66,11 +67,11 @@ class RegistPage extends StatelessWidget {
                     keyboardType: TextInputType.text,
                     style: const TextStyle(color: Colors.white),
                     decoration: InputDecoration(
-                      labelText: 'Email',
+                      labelText: 'ID Member',
                       labelStyle: const TextStyle(color: Colors.white),
-                      hintText: 'Masukkan Email Anda',
+                      hintText: 'Masukkan ID Member Anda',
                       hintStyle: const TextStyle(color: Colors.grey),
-                      
+
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12.0),
                       ),
@@ -89,7 +90,7 @@ class RegistPage extends StatelessWidget {
                       ),
 
                       prefixIcon: Icon(
-                        Icons.email,
+                        Icons.person,
                         size: 25.0,
                         color: Colors.white,
                       ),
@@ -133,42 +134,6 @@ class RegistPage extends StatelessWidget {
                   ),
 
                   SizedBox(height: 10),
-                  
-                  TextField(
-                    obscureText: true,
-                    style: const TextStyle(color: Colors.white),
-                    decoration: InputDecoration(
-                      labelText: 'Konfirmasi Password',
-                      labelStyle: const TextStyle(color: Colors.white),
-                      hintText: 'Masukkan Ulang Password Anda',
-                      hintStyle: const TextStyle(color: Colors.grey),
-
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(12.0),
-                      ),
-
-                      enabledBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(12),
-                        borderSide: BorderSide(color: Colors.white),
-                      ),
-
-                      focusedBorder: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(12),
-                        borderSide: BorderSide(
-                          color: Colors.blue[700]!,
-                          width: 2,
-                        ),
-                      ),
-
-                      prefixIcon: const Icon(
-                        Icons.lock_outline,
-                        color: Colors.white,
-                      ),
-                      suffixIcon: const Icon(Icons.visibility_outlined),
-                    ),
-                  ),
-
-                  SizedBox(height: 10),
 
                   Align(
                     alignment: Alignment.centerRight,
@@ -176,11 +141,11 @@ class RegistPage extends StatelessWidget {
                       onPressed: () {
                        Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => LoginPage()),
+                          MaterialPageRoute(builder: (context) => RegistPage()),
                         );
                       },
                       child: Text(
-                        'Sudah Punya Akun?',
+                        'Belum Punya Akun?',
                         style: TextStyle(color: Colors.blue[700], fontSize: 14),
                       ),
                     ),
@@ -194,7 +159,7 @@ class RegistPage extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => LoginPage()),
+                          MaterialPageRoute(builder: (context) => HomePage()),
                         );
                       },
                       style: ElevatedButton.styleFrom(
@@ -205,9 +170,9 @@ class RegistPage extends StatelessWidget {
                           borderRadius: BorderRadius.circular(12),
                         ),
                         elevation: 2,
-                      ), 
+                      ),
                       child: const Text(
-                        'Submit',
+                        'Login',
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
